@@ -1,0 +1,7 @@
+:root{
+    --bs-primary:#617660; /* Your custom primary color */
+    --bs-secondary: #193be6;
+    --bs-success:#9109ec;
+    --bs-danger: #09edf1;
+    --bs-warning:#f97e0b;
+}

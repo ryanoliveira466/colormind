@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="custom.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/pantone_929286.png">
+    <title>Bootstrap API ColorMind</title>
+    
+</head>
+
+
+
+<body id="body">
+
+    <header id="bodyNavbar" >
+         
+
+        <nav class="navbar fixed-top navbar-expand  " id="navbar"  > 
+            <div class="container-fluid d-flex">    
+              <a class="navbar-brand" style="color: var(--bs-primary);" href="#">
+                <img src="img/pantone_929286.png" alt="Logo" width="30" height="24"  class="d-inline-block align-text-top">
+                Bootstrap API ColorMind
+              </a><div class="collapse navbar-collapse" id="navbarNavDropdown">
+                 
+                <ul class="navbar-nav d-flex" >
+                  <li class="nav-item">
+                    <a class="nav-link active  " style="color: var(--bs-primary);" aria-current="page" href="#howWorks">How it works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " style="color: var(--bs-primary);" href="#features">Features</a>
+                  </li>   
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: var(--bs-primary);"  href="#footer">Footer</a>
+                  </li>
+                  <div class="generate">
+                    <button id="generate" class="btn btn-light"style="" role="status"><span id="changeVisbilityText" class="emptyForNow">Generate</span></button>
+                </div>
+
+
+                </ul>
+
+
+                <!-- The ms-auto class in Bootstrap 5 is a utility class used to set the margin on the start side (left in left-to-right languages) of an element to auto. 
+                This effectively pushes the element to the right, making it useful for aligning items within a flex container. -->
+
+                 
+                     <ul class="navbar-nav ms-auto">                      
+                        <li class="nav-item1">
+                          <a class="nav-link text-light-emphasis ms-auto" href="https://www.instagram.com/oliveiraryan.10/" id="instagram"><img src="img/insta_3955027.png" width="40px" height="40px" alt="" srcset=""></a>
+                        </li>
+                        </li>
+                      </ul>
+                    
+                        <ul class="navbar-nav">                      
+                        <li class="nav-item1">
+                          <a class="nav-link text-light-emphasis" href="https://github.com/ryanoliveira466" id="instagram"><img src="img/github_2515875.png" width="48px" height="48px" alt="" srcset=""></a>
+                        </li>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>   
+        </nav>
+
+        <nav class="navbar fixed-top  " style="width: 100%; height: 40px;margin-top: 120px;background-color: var(--bs-danger);  ">
+          <div class="container-fluid">
+            <input type="color" id="favcolor11" name="favcolor11" value="#617660">
+            <input type="color" id="favcolor22" name="favcolor22" value="#193be6">
+            <input type="color" id="favcolor33" name="favcolor33" value="#9109ec">
+            <input type="color" id="favcolor44" name="favcolor44" value="#09edf1">
+            <input type="color" id="favcolor55" name="favcolor55" value="#f97e0b">
+          </div>
+        </nav>
+
+              
+    </header>
+    
+     
+
+    <main>
+        <section>
+
+            <header>
+                <article>
+
+                   
+
+
+
+                    <!-- <label for="favcolor">Select your favorite color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+                    <div id="hexValue">
+                        #ff0000
+                    </div>
+
+                    <div id="rgbValue">
+                        rgb(255,255,255)
+                    </div> -->
+
+
+
+
+
+
+
+
+
+                    <div class="colorSchema">
+
+                        
+
+                        <div class="schema">
+                            <div class="color" id="color">
+                                 
+                            </div>
+
+
+                            <input type="color" id="favcolor1" name="favcolor1" value="#617660">
+
+
+                            
+                            <div id="hexValue1">
+                              #617660
+                            </div>
+
+                            <div id="rgbValue1">
+                              rgb(18,210,15)
+                            </div>
+
+                          
+
+                            <button id="locker1" class="btn btn-dark">Locker</button>
+                            <div id="lockerConfirm1">Unlocked</div>
+                            <div class="lockedUnlockedImage"><img id="lockedUnlockedImage1" src="img/unlock_3917606.png"></div>
+
+                            
+
+                             
+
+                           
+
+                        </div>
+
+                         
+
+
+
+
+
+
+
+                        <div class="schema">
+                            <div class="color1" id="color1">
+                                
+                            </div>
+
+
+                            <input type="color" id="favcolor2" name="favcolor2" value="#193be6">
+                            <div id="hexValue2">
+                                #193be6
+                            </div>
+
+                            <div id="rgbValue2">
+                                rgb(25,59,230)
+                            </div>
+
+                            <button id="locker2" class="btn btn-dark">Locker</button>
+                            <div id="lockerConfirm2">Unlocked</div>
+                            <div class="lockedUnlockedImage"><img id="lockedUnlockedImage2"  src="img/unlock_3917606.png"></div>
+                        </div>
+
+
+
+
+
+
+
+
+                        <div class="schema">
+                            <div class="color2" id="color2">
+                                
+                            </div>
+
+
+                            <input type="color" id="favcolor3" name="favcolor3" value="#9109ec">
+                            <div id="hexValue3">
+                                #9109ec
+                            </div>
+
+                            <div id="rgbValue3">
+                                rgb(145,9,236)
+                            </div>
+
+                            <button id="locker3" class="btn btn-dark">Locker</button>
+                            <div id="lockerConfirm3">Unlocked</div>
+                            <div class="lockedUnlockedImage"><img id="lockedUnlockedImage3"  src="img/unlock_3917606.png"></div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="schema">
+                            <div class="color3" id="color3">
+                                
+                            </div>
+
+
+                            <input type="color" id="favcolor4" name="favcolor4" value="#09edf1">
+                            <div id="hexValue4">
+                                #09edf1
+                            </div>
+
+                            <div id="rgbValue4">
+                                rgb(9,237,241)
+                            </div>
+
+                             
+                             
+                            <button id="locker4" class="btn btn-dark">Locker</button>
+                            <div id="lockerConfirm4">Unlocked</div>
+                            <div class="lockedUnlockedImage"><img id="lockedUnlockedImage4"  src="img/unlock_3917606.png"></div>
+                        </div>
+
+
+
+
+
+
+
+                        <div class="schema">
+                            <div class="color4" id="color4">
+                                
+                            </div>
+
+
+                            <input type="color" id="favcolor5" name="favcolor5" value="#f97e0b">
+                            <div id="hexValue5">
+                                #f97e0b
+                            </div>
+
+                            <div id="rgbValue5">
+                                rgb(249,126,11)
+                            </div>
+
+                            <button id="locker5" class="btn btn-dark">Locker</button>
+                            <div id="lockerConfirm5">Unlocked</div>
+                            <div class="lockedUnlockedImage"><img id="lockedUnlockedImage5"  src="img/unlock_3917606.png"></div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- <div class="generate">
+                        <button id="generate" class="btn btn-light" role="status"><span id="changeVisbilityText" class="emptyForNow">Generate</span></button>
+                    </div> -->
+
+                   
+                     
+
+                </article>
+            </header>
+
+            <header>
+                <article>
+
+                    <div class="jjk"> 
+
+                    <div class="jjkgojo"> 
+                    <div class="gojo" id="gojo"></div>
+                    </div>
+
+                    <div class="jjksukuna"> 
+                    <div class="sukuna" id="sukuna"></div>
+                    </div>
+
+                     </div>
+
+                </article>
+            </header>
+
+
+
+
+
+
+
+
+            <section id="features"> 
+            <header>
+                <article>
+                     
+
+
+                         <div class="featuresTitle" id="featuresTitle"> 
+                        <h1></h1>
+                        </div>
+ 
+
+
+
+                    <div class="box1" id="box1"> 
+
+                        <div class="card1"> 
+                        <div class="card mb-3" style="max-width: 18rem; border-color: var(--bs-success);">
+                            <div class="card-header" style="background-color: var(--bs-primary); color: var(--bs-success); border-color: var(--bs-success);">Header</div>
+                            <div class="card-body" style="background-color: var(--bs-primary); border-color: var(--bs-success);">
+                              <h5 class="card-title" style="color: var(--bs-success);">Primary card title</h5>
+                              <p class="card-text" style="color: var(--bs-success);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                          <h1 style="color: var(--bs-warning);">Card</h1>
+                          <p style="color: var(--bs-warning);">This is a card</p>
+                        </div>
+
+                         
+                        
+
+                  
+                     <div class="accordion1" > 
+
+
+                    <div class="accordion" style="border-color:var(--bs-warning);" id="accordionExample">
+                        <div class="accordion-item" style="border-color:var(--bs-warning); background-color: var(--bs-danger);" >
+                          <h2 class="accordion-header" style="border-color:var(--bs-warning);" >
+                            <button class="accordion-button" style="background-color: var(--bs-danger);  color: var(--bs-primary); border-color:var(--bs-warning);" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="collapseOne" style="border-color:var(--bs-warning);" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="background-color: var(--bs-danger); color: var(--bs-primary); border-color: var(--bs-primary);">  
+                              <strong>This is the first item's accordion body.</strong> 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item" style="border-color: var(--bs-warning);" >
+                          <h2 class="accordion-header"style="border-color: var(--bs-warning);">
+                            <button class="accordion-button collapsed "style="background-color: var(--bs-danger); color: var(--bs-primary); border-color: var(--bs-warning);" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" style="border-color:var(--bs-warning);" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="background-color: var(--bs-danger); color: var(--bs-primary); border-color: var(--bs-warning);">
+                              <strong>This is the second item's accordion body.</strong>  
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item"style="border-color: var(--bs-warning);" >
+                          <h2 class="accordion-header" style="border-color: var(--bs-warning);">
+                            <button class="accordion-button collapsed"style="background-color: var(--bs-danger); color: var(--bs-primary);" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="background-color: var(--bs-danger); color: var(--bs-primary);border-color:var(--bs-warning); ;">
+                              <strong>This is the third item's accordion body.</strong>  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+                      <h1 style="color: var(--bs-warning);">Accordion</h1>
+                      <p style="color: var(--bs-warning);">This is an Accordion</p>
+                    </div>
+
+                     
+
+
+                     <div class="card2" style="border-color: var(--bs-primary);"> 
+                        
+                    <div class="card mb-3" style="max-width: 18rem; background-color: var(--bs-warning); color: var(--bs-primary); border-color: var(--bs-primary);">
+                        <div class="card-header" style="border-color: var(--bs-primary);">Header</div>
+                        <div class="card-body text-success" style="border-color: var(--bs-primary);">
+                          <h5 class="card-title" style="color: var(--bs-primary); border-color: blue;">Success card title</h5>
+                          <p class="card-text" style="color: var(--bs-primary); border-color: var(--bs-primary);">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <h1 style="color: var(--bs-warning);">Border Card</h1>
+                      <p style="color: var(--bs-warning);">This is a Border Card</p>
+                    </div>
+  
+
+                   </div>   
+                   
+                   
+
+                     
+                      
+                </div>
+          
+
+                       
+                </article>
+            </header>
+
+
+
+
+
+
+
+
+
+
+            <header>
+                <article>
+
+                  <div class="box2" id="box2">
+
+                    <div class="buttons">
+                        <div class="buttonsTitle"> 
+                        <h1 style="color: var(--bs-primary);">Buttons</h1>
+                        <p style="color: var(--bs-primary);">These are buttons</p>
+                        </div>
+                        <button type="button" class="btn btn-primary" style="background-color: var(--bs-primary); color: var(--bs-warning); border-color: var(--bs-warning);">Primary</button>
+                        <button type="button" class="btn btn-secondary"style="background-color: var(--bs-secondary); color: var(--bs-danger); border-color: var(--bs-danger);" >Secondary</button>
+                        <button type="button" class="btn btn-success" style="background-color: var(--bs-success); color: var(--bs-warning); border-color: var(--bs-warning);">Success</button>
+                        <button type="button" class="btn btn-danger" style="background-color: var(--bs-danger); color: var(--bs-secondary); border-color: var(--bs-secondary);">Danger</button>
+                        <button type="button" class="btn btn-warning" style="background-color: var(--bs-warning); color: var(--bs-primary); border-color: var(--bs-primary);">Warning</button>
+                        
+
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+
+                    
+
+
+
+                     
+
+
+                     <div class="alerts"> 
+                        <h1 style="color: var(--bs-primary);">Alerts</h1>
+                        <p style="color: var(--bs-primary);">These are alerts</p>
+                    <div class="alert alert-primary" style="background-color: var(--bs-primary); color: var(--bs-warning); border-color: var(--bs-warning);" role="alert">
+                        A simple primary alert—check it out!
+                      </div>
+                      <div class="alert alert-secondary" style="background-color: var(--bs-secondary); color: var(--bs-warning); border-color: var(--bs-warning);" role="alert">
+                        A simple secondary alert—check it out!
+                      </div>
+                      <div class="alert alert-success" style="background-color: var(--bs-success); color: var(--bs-primary); border-color: var(--bs-primary);"role="alert">
+                        A simple success alert—check it out!
+                      </div>
+                      <div class="alert alert-danger" style="background-color: var(--bs-danger); color: var(--bs-warning); border-color: var(--bs-warning);"role="alert">
+                        A simple danger alert—check it out!
+                      </div>
+                      <div class="alert alert-warning" style="background-color: var(--bs-warning); color: var(--bs-secondary); border-color: var(--bs-secondary);"role="alert">
+                        A simple warning alert—check it out!
+                      </div>
+                      
+
+                    </div>
+
+
+
+                    <div class="placeholders"> 
+                        <h1 style="color: var(--bs-primary);">PlaceHolder</h1>
+                        <p style="color: var(--bs-primary);">These are placeholders</p>
+                    <span class="placeholder col-12"></span>
+                    <span class="placeholder col-12" style="background-color: var(--bs-primary);"></span>
+                    <span class="placeholder col-12" style="background-color: var(--bs-secondary);"></span>
+                    <span class="placeholder col-12" style="background-color: var(--bs-success);"></span>
+                    <span class="placeholder col-12" style="background-color: var(--bs-danger);"></span>
+                    <span class="placeholder col-12" style="background-color: var(--bs-warning);"></span>
+                    </div>
+
+
+
+
+                    <div class="buttonsTollBar">
+                        <h1 style="color: var(--bs-primary);">Group Buttons</h1>
+                        <p style="color: var(--bs-primary);">These are group buttons</p>
+                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group me-2" role="group" aria-label="First group">
+                              <button type="button" class="btn btn-primary" style="background-color: var(--bs-primary); color: var(--bs-warning); border-color: var(--bs-warning);">1</button>
+                              <button type="button" class="btn btn-primary" style="background-color: var(--bs-primary); color: var(--bs-warning); border-color: var(--bs-warning);">2</button>
+                              <button type="button" class="btn btn-primary" style="background-color: var(--bs-primary); color: var(--bs-warning); border-color: var(--bs-warning);">3</button>
+                              <button type="button" class="btn btn-primary" style="background-color: var(--bs-primary); color: var(--bs-warning); border-color: var(--bs-warning);">4</button>
+                            </div>
+                            <div class="btn-group me-2" role="group" aria-label="Second group">
+                              <button type="button" class="btn btn-secondary" style="background-color: var(--bs-secondary); color: var(--bs-warning); border-color: var(--bs-warning);">5</button>
+                              <button type="button" class="btn btn-secondary" style="background-color: var(--bs-secondary); color: var(--bs-warning); border-color: var(--bs-warning);">6</button>
+                              <button type="button" class="btn btn-secondary" style="background-color: var(--bs-secondary); color: var(--bs-warning); border-color: var(--bs-warning);">7</button>
+                            </div>
+                            <div class="btn-group" role="group" aria-label="Third group">
+                              <button type="button" class="btn btn-info" style="background-color: var(--bs-warning); color: var(--bs-secondary); border-color: var(--bs-secondary);">8</button>
+                            </div>
+                          </div>
+
+                          <br>
+
+
+                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn" style= "color: var(--bs-primary); outline: var(--bs-primary);">Left</button>
+                            <button type="button" class="btn btn" style= "color: var(--bs-primary); outline: var(--bs-primary);">Middle</button>
+                            <button type="button" class="btn btn" style= "color: var(--bs-primary); outline: var(--bs-primary);">Right</button>
+                          </div>
+
+                          <br>
+
+                          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-danger" style="background-color: var(--bs-danger);  color: var(--bs-primary); border-color: transparent">Left</button>
+                            <button type="button" class="btn btn-warning" style="background-color: var(--bs-warning); color: var(--bs-secondary); border-color: transparent;">Middle</button>
+                            <button type="button" class="btn btn-success" style="background-color: var(--bs-success); color: var(--bs-primary); border-color: transparent;">Right</button>
+                          </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="navbar1"> 
+
+                        <div class="titleNavBar1"> 
+                            <h1 style="color: var(--bs-primary);">Navbar</h1>
+                            <p style="color: var(--bs-primary);">This is a Navbar</p>
+                            </div>
+                     
+
+                        <nav class="navbar navbar-expand-md " style="background-color: var(--bs-danger);" >
+                            <div class="container-fluid" style="background-color: var(--bs-danger); ">
+                              <a class="navbar-brand" href="#" style="color: var(--bs-warning);">Navbar</a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                                  <li class="nav-item" >
+                                    <a class="nav-link active" aria-current="page" href="#" style="color: var(--bs-warning);">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#" style="color: var(--bs-warning);">Link</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" style="color: var(--bs-warning);"role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" style="color: var(--bs-warning); background-color: var(--bs-danger);">
+                                      <li><a class="dropdown-item" href="#" style="color: var(--bs-warning); background-color: var(--bs-danger);">Action</a></li>
+                                      <li><a class="dropdown-item" href="#" style="color: var(--bs-warning); background-color: var(--bs-danger);">Another action</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#" style="color: var(--bs-warning); background-color: var(--bs-danger);">Something else here</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item" style="color: var(--bs-warning);">
+                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                  </li>
+                                </ul>
+                                <form class="d-flex" role="search">
+                                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                  <button class="btn btn-outline-success" type="submit" style="color: var(--bs-warning); border-color: var(--bs-warning);">Search</button>
+                                </form>
+                              </div>
+                            </div>
+                          </nav>
+    
+                           
+    
+                           
+                        </div>
+
+
+
+
+
+
+
+
+
+                  </div>
+
+                    
+                    
+                </article>
+            </header>
+
+        </section>
+
+
+        <section id="howWorks"> 
+        <header>
+            <article>
+
+                
+
+                 
+
+                <div class="usageTips1" id="usageTips1">
+                     
+                <div class="textUsageTips1" style="color: var(--bs-success);"> 
+                    <h3  >Usage tips</h3> 
+                <p  >If no colors are locked Colormind will generate color palettes at random.
+                    <br>
+                  If you have a specific starting color in mind, pick that color and lock it.
+                  <br>The location of the color does matter,
+                so experiment with different placements.</p>
+                 
+                <div class="imagesTutorial"> 
+                <img  class="t1" src="img/tutorial1.png" width="400" style="padding-bottom: 10px;"     alt="" srcset="">
+                <img  class="t2" src="img/tutorial2.png"  width="400px"     alt="" srcset="">
+                </div>
+                 
+            </div>
+                </div>
+
+                <div class="usageTips1" id="usageTips2">
+                     
+                    <div class="textUsageTips1" style="color: var(--bs-success);" > 
+                        <h3  >Usage tips</h3> 
+                    <p > 
+                        If you have two complementary colors, try placing them at the opposite ends of<br> the palette. 
+                         Colormind will tend to generate nice intermediate values.</p>
+                         <div class="imagesTutorial">
+                    <img class="t3"  src="img/tutorial3.png"  width="400px" style="padding-bottom: 10px;" alt="" srcset="">
+                    <img class="t4" src="img/tutorial4.png"  width="400px"  alt="" srcset="">
+                  </div>
+
+                </div>
+                    </div>
+
+                    <div class="usageTips1" id="usageTips3">
+                     
+                        <div class="textUsageTips1" style="color: var(--bs-success);"  > 
+                            <h3  >Usage tips</h3> 
+                        <p  >If you want more variety try placing contrasting colors closer together,colormind<br>
+                             will then tend to create triadic and other more complex color schemes.</p>
+                             <div class="imagesTutorial">
+                        <img  class="t5" src="img/tutorial5.png" width="400px"  style="padding-bottom: 10px;" alt="" srcset="">
+                        <img  class="t6" src="img/tutorial6.png" width="400px"  style="padding-bottom: 10px;" alt="" srcset="">
+                        <img  class="t7" src="img/tutorial7.png" width="400px"  style="padding-bottom: 10px;" alt="" srcset="">
+                        <img  class="t8" src="img/tutorial8.png" width="400px"   alt="" srcset="">
+                      </div>
+
+
+                    </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+            </article>
+        </header>
+    </section>   
+        </section>
+    </main>
+
+    <footer id="footer">
+        <nav class="navbar navbar-expand bg-dark " id="navbarFooter">
+            <div class="container-fluid d-flex">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex ">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="http://colormind.io/api-access/">API Access</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="http://colormind.io/">Official Site</a>
+                  </li>
+
+                                        
+                        <li class="nav-item2">
+                          <a class="nav-link text-light-emphasis ms-auto" href="https://www.instagram.com/oliveiraryan.10/" id="instagram"><img src="img/insta_3955027.png" width="40px" height="40px" alt="" srcset=""></a>
+                        </li>
+                        </li>
+                      </ul>
+                    
+                        <ul class="navbar-nav">                      
+                        <li class="nav-item2">
+                          <a class="nav-link text-light-emphasis" href="https://github.com/ryanoliveira466" id="instagram"><img src="img/github_2515875.png" width="48px" height="48px" alt="" srcset=""></a>
+                        </li>
+                        </li>
+                       
+                   
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </footer>
+
+    
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
