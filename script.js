@@ -653,7 +653,7 @@ function click5() {
 
 
 
-var url = "http://colormind.io/api/";
+var url = "https://colormind.io/api/";
 var data = {
     model: "default",
     input: [data1, data2, data3, data4, data5]  //N = locker
