@@ -78,7 +78,7 @@ Este script envia uma requisição POST para a API Colormind com algumas cores d
 Quando a resposta é recebida com sucesso (status 200), ele processa os dados e extrai a paleta de cores da resposta da API.
 A função trigger() é chamada para enviar a requisição.
 
-<p><span style="color: red">OBS</span>: Este é um aviso importante!</p>
+#Observação!
 
-Como a requisição do site es´ta em `http...` o GitHub não permite a execução da API por moitvos de segurança, para usar a API deve-se baixar o projeto e rodar ele na sua máquina.
+Como a requisição do site está em `http...` o GitHub não permite a execução da API por moitvos de segurança, para usar a API deve-se baixar o projeto e rodar ele na sua máquina.
 
