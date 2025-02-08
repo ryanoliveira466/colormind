@@ -80,7 +80,7 @@ A função trigger() é chamada para enviar a requisição.
 
 # Observação!
 
-Como a requisição do site está em `http...` o GitHub não permite a execução da API por moitvos de segurança, para usar a API deve-se baixar o projeto e rodar ele na sua máquina.
+Como a requisição do site está em `http...` o GitHub não permite a execução da API por motivos de segurança, para usar a API deve-se baixar o projeto e rodar ele na sua máquina.
 
 ---
 
